@@ -127,4 +127,8 @@
   .master-class-catagory div:nth-child(3) {
     display: none;
   }
+  .footer-social-links div{
+    padding: 5px;
+  }
 }
+
