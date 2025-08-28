@@ -1,0 +1,51 @@
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    position: sticky;
+    font-size: 0.9rem;
+    border: 1px solid grey;
+    justify-content: space-around;
+}
+.sec-left, .sec-right{
+    padding: 20px;
+    justify-content: space-around;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.sec-left img{
+    width: 120px;
+}
+form, .download, .sobcourse, .language{
+    display: flex;
+    align-items: center;
+}
+.language img{
+    height: 30px;
+    width: 30px;
+}
+form{
+    padding: 10px 10px;
+    border-radius: 30px;
+    background-color: var(--button-hover);
+}
+form input{
+    outline: none;
+    border: none;
+    background-color: var(--button-hover);
+
+}
+.loginbtn{
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+}
+.menu{
+    display: none;
+}

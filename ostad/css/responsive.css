@@ -1,0 +1,120 @@
+@media (max-width: 840px) {
+  .ostadlogo {
+    display: none;
+  }
+}
+@media (max-width: 990px) {
+  .blog,
+  .free,
+  .offer,
+  .language,
+  .mama {
+    display: none;
+  }
+  .hero-card {
+    flex-wrap: wrap;
+  }
+  .hero-card .hero-section {
+    flex-basis: 99%;
+  }
+  .course-catagory {
+    flex-wrap: wrap;
+  }
+  .course-catagory-item {
+    flex-basis: 31%;
+  }
+  .course {
+    flex-basis: 47%;
+  }
+  .master-class-upcomingClass .master-classes {
+    flex-basis: 48%;
+  }
+  .master-class-catagory div:nth-child(5) {
+    display: none;
+  }
+
+  .master-class-catagory div:nth-child(6) {
+    display: none;
+  }
+  .master-class-catagory div {
+    flex-basis: 24%;
+  }
+  .code_mama,
+  .cv {
+    flex-basis: 98%;
+    margin: 10px;
+    font-size: 0.7rem;
+  }
+  .cvdt_mamadt{
+    font-size: 0.7rem;
+  }
+  .supports{
+    grid-template-columns: repeat(2,1fr);
+    font-size: 0.5rem;
+  }
+  .successamount{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .download-sec{
+    grid-template-columns: 1fr;
+  }
+  .download-sec .download-image img{
+    width: 70%;
+  }
+  footer{
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 580px) {
+  header {
+    justify-content: space-between;
+    padding: 0;
+  }
+  .menu {
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+  }
+  form input {
+    width: 100%;
+  }
+  .ostadlogo {
+    display: inline-block;
+  }
+  .sec-left {
+    width: 100%;
+  }
+  form {
+    flex-grow: 1;
+    padding: 10px;
+  }
+  .sec-right,
+  .offer,
+  .mama,
+  .free,
+  .blog,
+  .download,
+  .language,
+  .sobcourse,
+  .loginbtn {
+    display: none;
+  }
+  .moku-interview {
+    flex-direction: column;
+  }
+  .moku-interview h5 {
+    display: none;
+  }
+  .course-catagory-item {
+    flex-basis: 48%;
+  }
+  .course {
+    flex-basis: 97%;
+  }
+  .master-class-upcomingClass .master-classes {
+    flex-basis: 98%;
+  }
+  .download-sec .download-image img{
+    width: 100%;
+  }
+}
