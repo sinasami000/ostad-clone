@@ -70,6 +70,10 @@
     justify-content: space-between;
     padding: 0;
   }
+  .moku{
+    font-size: 10px;
+  }
+
   .menu {
     display: inline-block;
     padding: 20px;
@@ -116,5 +120,11 @@
   }
   .download-sec .download-image img{
     width: 100%;
+  }
+  .master-class-catagory{
+    flex-wrap: wrap;
+  }
+  .master-class-catagory div:nth-child(3) {
+    display: none;
   }
 }
